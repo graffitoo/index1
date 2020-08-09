@@ -1,0 +1,111 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* .bg {
+    background-color: slategrey;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+} */
+.asd{
+    background-color: black;
+    opacity: 0.4;
+}
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler .icon-bar {
+    background-color: #fff;
+    transform: rotate(0deg) translate(0px, 0px);
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  
+  .navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+  }
+  
+  .icon-bar:nth-child(2) {
+    width: 16px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:hover>.icon-bar:nth-child(2) {
+    width: 22px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:active>.icon-bar:nth-child(2) {
+    width: 22px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 4px);
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+    opacity: 0;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+    transition: ease all .2s;
+  }
+  
+  .sec-accent {
+    background-color: #fafcf5;
+  }
+  
+  .blue {
+    background-color: #9999cc;
+  }
+ .bg-dark {
+   background-color: rgba(37, 77, 77, 0.856) !important;
+   font-family: 'Raleway', sans-serif;
+   /* font-weight: 500; */
+ }
+ .page-footer {
+   text-align: center !important;
+   background-color: rgb(159, 221, 221);
+ }
+.knockus {
+  font-size: 190%;
+  color: #fff;
+  text-align: center;
+  padding-top: 25%;
+}
+.about2-1 {
+  /* padding-left: 33.33%; */
+  padding-top: 15%;
+  font-family: 'Raleway'sans-serif;
+  padding-bottom: 20%;
+}
+
+.row {
+  margin: 0%;
+}
+.social{
+  text-decoration: none;
+  color: rgb(0, 29, 29);
+}
+.social:hover{
+  color: rgb(2, 161, 161);
+}
