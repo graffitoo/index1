@@ -1,0 +1,221 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: transparent;
+}
+
+/* .bg {
+    background-image: url(../background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+} */
+.asd{
+    background-color: black;
+    opacity: 0.4;
+}
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler .icon-bar {
+    background-color: #fff;
+    transform: rotate(0deg) translate(0px, 0px);
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  
+  .navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+  }
+  
+  .icon-bar:nth-child(2) {
+    width: 16px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:hover>.icon-bar:nth-child(2) {
+    width: 22px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:active>.icon-bar:nth-child(2) {
+    width: 22px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 4px);
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+    opacity: 0;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+    transition: ease all .2s;
+  }
+  
+  .sec-accent {
+    background-color: #fafcf5;
+  }
+  
+  .blue {
+    background-color: #9999cc;
+  }
+  .logo0 {
+    width: 10%;
+  }
+ .bg-dark {
+   background-color: rgba(37, 77, 77, 0.4);
+   font-family: Raleway;
+ }
+ .page-footer {
+   text-align: center !important;
+   background-color: rgb(159, 221, 221);
+}
+.social{
+  text-decoration: none;
+  color: rgb(0, 29, 29);
+}
+.social:hover{
+  color: rgb(2, 161, 161);
+}
+.bg1 {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../service1.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.bg-cntnt {
+    color: white;
+    font-family: Raleway;
+    padding-top: 18%;
+    padding-left: 3.9%;
+}
+.bg-cntnt1 {
+    color: white;
+    font-family: Raleway;
+    padding-top: 8%;
+    padding-right: 3.9%;
+    text-align: right;
+}
+.bg2 {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../bg.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+} 
+.graffitoo {
+    /* position: absolute; */
+    padding-top: 14%;
+    color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+    mix-blend-mode: overlay;
+    font-size: 1190%;
+    font-family: Raleway;
+}
+.dropdown {
+  background-color: transparent;
+  border: transparent;
+  font-family: Raleway;
+
+}
+.btn {
+  background-color: transparent;
+}
+.btn-secondary {
+  background-color: transparent;
+  border: transparent;
+}
+.dropdown-menu {
+  background-color: transparent; 
+  border: transparent;
+}
+.dropdown-toggle{
+  background-color: transparent;
+}
+.dropdown-item {
+  color: white;
+}
+.menu {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .graffitoo {
+    font-size: 310%;
+    padding-top: 100%;
+  }
+  .bg-cntnt {
+    color: white;
+    font-family: Raleway;
+    padding-top: 40%;
+    padding-left: 3.9%;
+  }
+.bg-cntnt1 {
+    color: white;
+    font-family: Raleway;
+    padding-top: 20%;
+    padding-right: 3.9%;
+    text-align: right;
+  }
+  .logo0 {
+    float: left;  
+    margin-top: -8%;
+    width: 10%;
+    height: 30%;
+  }
+}
+@media only screen and (min-width:749px) and (max-width:1000px) {
+  .graffitoo {
+    font-size: 800%;
+    padding-top: 35%;
+  }
+  .bg1 {
+    height: 70vh;
+  }
+  .bg-cntnt {
+    padding-top: 34%;
+  }
+  .bg-cntnt1 {
+    padding-top: 14%;
+  }
+  .bg2 {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1030px) {
+  .graffitoo {
+    font-size: 1000%;
+    padding-top: 35%;
+  }
+  .bg1 {
+    height: 70vh;
+  }
+  .bg-cntnt {
+    padding-top: 34%;
+  }
+  .bg-cntnt1 {
+    padding-top: 14%;
+  }
+  .bg2 {
+    height: 70vh;
+  }
+}
